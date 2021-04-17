@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+
+<body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <form class="form-inline">
+                    <h4>Search for a city:</h4>
+                    <input class="form-control mr-sm-2" id="cityInput" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" id="searchBtn" type="submit">Search</button>
+                </form>
+                <div class=" list-group" id="city-list"></div>
+            </div>
+            <div class="col-8" id="currentWeather"></div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4>5-Day Forecast</h4>
+            </div>
+            <div class='col-12 flex-container' id="5dayForecast">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Assets/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+h1 { background-color: #a05f8c;
+    color: floralwhite;
+    font-family: Jazz LET, fantasy;
+    text-align: center;
+    padding: 30%, 30%;
+    
+}
+h4 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+#city-list {
+    border: black;
+    padding: 0%;
+    margin: 2%
+}
+.city {
+    color: black;
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2%;
+}
+#currentWeather {
+    border: 2px solid #a05f8c;
+    border-radius: 25px;
+    background-color: #fafad2;
+    text-align: center;
+    margin: 2% 0% 1%;
+}
+.flex-container {
+    display: flex;
+}
+.flex-child {
+    flex: 1;
+    border: 2px solid rgb(233, 169, 241);
+    border-radius: 25px;
+    background-color: #a05f8c;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
