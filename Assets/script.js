@@ -26,7 +26,7 @@ function callAPI(city) {
         var t4 = $('<p>').text('Windspeed: ' + windspeed + 'MPH');
         currentWeatherDiv.append(t1, date, showIcon, t2, t3, t4);
     })
-    var queryURL2 = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=07c55abb142d07d64c38ec8a22379edc&units=imperial"
+    var queryURL2 = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=0e3c5873dedccebc8203c421fbb82ac0edc&units=imperial"
     $.ajax({
         url: queryURL2,
         method: 'GET'
